@@ -1,0 +1,23 @@
+:host :is(.Background) {
+    background-image: url(src\assets\BackGrounds\Front-Page-Bg.jpg);
+}
+
+:host :is(.MainPage) {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+:host :is(.Text-shadow) {
+    text-shadow: 6px 6px 6px #000;
+}
+
+:host :is(.Overlay) {
+    background-color: rgba(0,0,0,0.4);
+}
+
+:host :is(.Button) {
+    
+    font-weight: bolder;
+    
+    box-shadow: 6px 6px 9px rgba(255, 255, 255, 0.527);
+}
