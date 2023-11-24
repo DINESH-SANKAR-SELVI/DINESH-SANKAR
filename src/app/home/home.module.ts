@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { MatCardModule } from '@angular/material/card';
+import { MatGridListModule } from '@angular/material/grid-list';
+
 import { HomeRoutingModule } from './home-routing.module';
 import { DashBoardComponent } from './dash-board/dash-board.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -31,7 +34,9 @@ import { GoodByeComponent } from './good-bye/good-bye.component';
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    MatCardModule,
+    MatGridListModule
   ],
   bootstrap: [
     DashBoardComponent
