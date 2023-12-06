@@ -13,3 +13,14 @@
     text-transform: uppercase;
     text-shadow: 0.5ch 0.5ch 1ch white;
 }
+:host :is(.SkillTitle) {
+    margin-left: 2ch;
+}
+:host :is(.SkillPercentage) {
+    color: #000;
+    font-weight: 600;
+    margin-left: 1ch;
+}
+:host :is(.line-height-4) {
+    line-height: 4ch;
+}
