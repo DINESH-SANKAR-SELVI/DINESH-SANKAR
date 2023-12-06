@@ -1,0 +1,15 @@
+:host :is(.Link-Title) {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 0.5ch 0.5ch 1ch white;
+}
+
+:host :is(.Link-Title + span) {
+    cursor: alias;
+}
+
+:host :is(.Title) {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 0.5ch 0.5ch 1ch white;
+}
